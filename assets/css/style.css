@@ -1,3 +1,4 @@
+/*General styling rules for page*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,17 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/*End general rules*/
+
+/*Styling for header section containing nav bar*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +52,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*End header containing nav bar styling*/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*Hero section styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +63,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*End hero section styling*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*General styling for whole content section*/
 .content {
     width: 75%;
     display: inline-block;
@@ -92,7 +89,21 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*End content section styling*/
 
+/*Classes used to float images as needed*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*End of classes for floating images as needed*/
+
+/*Gerneral rules for benefits section styling*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,7 +130,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*End benefits section styling*/
 
+/*Footer section styling*/
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +143,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*End footer section styling*/
